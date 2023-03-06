@@ -1,0 +1,28 @@
+.contain_blockchain{
+
+    position:absolute  ;
+  transform: translate(0, -480vh);
+
+}
+
+.titulo_token{
+    font-size: 10vw;
+    
+    color: rgb(255, 255, 255, 0);
+  -webkit-text-stroke: 2px whitesmoke;
+}
+
+.newstyle{
+  color: black;
+}
+
+@media (min-width:720px){
+    
+
+  .titulo_token{
+    font-size: 7vw;
+    
+    color: rgb(255, 255, 255, 0);
+  -webkit-text-stroke: 2px whitesmoke;
+}
+  }

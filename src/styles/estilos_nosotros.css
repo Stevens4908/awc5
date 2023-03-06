@@ -1,0 +1,229 @@
+.contain_nosotros{
+
+    position: absolute;
+  transform: translate(0, -90vh);
+  z-index: 1;
+ /* height: 80vh; */
+  
+
+}
+
+.titulo_nosotros{
+  height: auto;
+  width: auto;
+  color: rgb(255, 255, 255, 0);
+   font-size: 10vw; 
+  -webkit-text-stroke: 1px #fff;
+  font-family: LinkStart;
+  font-size: 6vh;
+}
+
+.color_nosotros{
+
+  color: #fff;
+  font-family: LinkStart;
+font-size: 3vh;
+ 
+}
+
+
+
+
+ /* VERSION DOS 
+
+ .contain_nosotros_2{
+
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  left: 0;
+  top:0%;
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.titulo_nosotros_2{
+color: rgb(255, 255, 255, 0);
+font-size: 8vw;
+-webkit-text-stroke: 1px #fff;
+font-family: LinkStart;
+}
+
+.color_nosotros_2{
+
+color: #fff;
+font-family: LinkStart;
+font-size: 2vw;
+}
+
+ FIN VERSION DOS */
+
+
+
+
+
+
+@media (min-width: 750px) {
+
+  .contain_nosotros{
+
+    position: fixed;
+  transform: translate(0, -95vh);
+  z-index: 1;
+ /* height: 80vh; */
+ 
+  
+
+}
+
+.titulo_nosotros{
+  
+  color: rgb(255, 255, 255, 0);
+  font-size: 5rem;
+  font-size: 8vh;
+  -webkit-text-stroke: 2px #fff;
+  font-family: LinkStart;
+  
+}
+
+.color_nosotros{
+
+  
+ 
+  color: #fff;
+  font-family: LinkStart;
+  /*font-size: 1.4rem;*/
+  font-size: 3.5vh;
+ 
+  
+ 
+}
+
+}
+
+
+
+
+
+/*
+
+@media (min-height: 600px) {
+
+  .contain_nosotros{
+
+    position: absolute;
+  transform: translate(0, -90vh);
+  z-index: 1;
+  height: 80vh;
+  
+
+}
+.titulo_nosotros{
+  height: auto;
+  width: auto;
+  color: rgb(255, 255, 255, 0);
+  font-size: 4rem;
+  -webkit-text-stroke: 1px #fff;
+  font-family: LinkStart;
+}
+
+.color_nosotros{
+
+  color: #fff;
+  font-family: LinkStart;
+  font-size: 1.3em;
+  
+}
+
+}
+
+
+*/
+
+
+@media (min-height: 900px) {
+
+  .contain_nosotros{
+
+    position: absolute;
+  transform: translate(0, -90vh);
+  z-index: 1;
+  /* height: 80vh; */
+  
+
+}
+.titulo_nosotros{
+ 
+  color: rgb(255, 255, 255, 0);
+  font-size: 6rem; 
+  -webkit-text-stroke: 3px #fff;
+  font-family: LinkStart;
+}
+
+.color_nosotros{
+
+  color: #fff;
+  font-family: LinkStart;
+  /*font-size: 2rem;*/
+ 
+}
+
+}
+
+
+
+
+
+
+
+
+/*
+
+@media (min-width:1020px){
+    
+
+  .contain_nosotros{
+
+    position: absolute;
+  transform: translate(0, -107vh);
+  z-index: 1;
+
+}
+  .titulo_nosotros{
+    color: rgb(255, 255, 255, 0);
+    font-size: 8vw;
+    -webkit-text-stroke: 4px #fff;
+    font-family: LinkStart;
+  }
+
+  .color_nosotros{
+    font-size: 1.5vw;
+    color: #fff;
+    font-family: LinkStart;
+  }
+
+/* VERSION DOS DESKTOP */
+
+  
+
+/* FIN VERSION DOS DESKTOP */
+/*
+  }
+
+
+  @media (min-width:1900px) {
+
+    .contain_nosotros{
+
+      position: absolute;
+    transform: translate(0, -100vh);
+    z-index: 1;
+  
+  }
+
+  }
+
+
+  */
+

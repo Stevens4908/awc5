@@ -1,0 +1,21 @@
+.agua {
+    font-family: sans-serif;
+    background-image: url("../assets/img/1.jpeg");
+  opacity: 0.2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .fondo{
+    
+      font-family: sans-serif;
+      background-image: url("../assets/img/black_x.jpg");
+    opacity: 0.8;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100vw;
+      height: 100vh;
+    
+  }

@@ -1,0 +1,145 @@
+.formulario{
+
+   
+    height: 80vh;
+    position: absolute;
+    transform: translate(0, -90vh);
+    z-index: 1;
+    
+
+}
+
+.new_con{
+        color: rgb(255, 255, 255, 0);
+      font-size: 12vw;
+        -webkit-text-stroke: 1px #fff;
+        font-family: LinkStart;
+    
+}
+
+
+.titulo_con{
+
+    text-align: center;
+    position: fixed;
+    transform: translate(0vw, -90vh);
+    color: rgb(255, 255, 255, 0);
+    font-size: 12vw;
+    -webkit-text-stroke: 1px #fff;
+    font-family: LinkStart;
+
+
+}
+
+
+
+@media (min-width: 768px) {
+
+    .formulario{
+
+   
+        height: 80vh;
+        position: absolute;
+        transform: translate(0, -90vh);
+        z-index: 1;
+    
+    }
+    
+    .new_con{
+            color: rgb(255, 255, 255, 0);
+          font-size: 6rem;
+            -webkit-text-stroke: 3px #fff;
+            font-family: LinkStart;
+        
+    }
+    
+
+}
+
+@media (min-height: 900px){
+
+    .formulario{
+
+   
+        height: 50vh;
+        position: absolute;
+        transform: translate(0, -80vh);
+        z-index: 1;
+    
+    }
+
+}
+
+/*
+
+@media (min-width:1320px) {
+
+    .new_con{
+        color: rgb(255, 255, 255, 0);
+        font-size: 6vw;
+        -webkit-text-stroke: 2px #fff;
+        font-family: LinkStart;
+    
+}
+    .formulario{
+
+        width: 100%;
+        height: auto;
+        position: absolute;
+        transform: translate(0, -95vh);
+        z-index: 1;
+    
+    }
+}
+
+
+/*
+@media (min-height:700px) {
+
+    .titulo_con{
+
+        text-align: center;
+        position: fixed;
+        transform: translate(0vw, -80vh);
+        color: rgb(255, 255, 255, 0);
+        font-size: 12vw;
+        -webkit-text-stroke: 2px #fff;
+        font-family: LinkStart;
+    
+    
+    }
+
+    .formulario{
+
+        width: 100%;
+        height: auto;
+        position: absolute;
+        transform: translate(0, -65vh);
+        z-index: 1;
+    
+    }
+
+} */
+
+
+/*
+
+@media (min-width:1900px) {
+
+    .new_con{
+        color: rgb(255, 255, 255, 0);
+        font-size: 6vw;
+        -webkit-text-stroke: 4px #fff;
+        font-family: LinkStart;
+    
+}
+    .formulario{
+
+        width: 100%;
+        height: auto;
+        position: absolute;
+        transform: translate(0, -85vh);
+        
+    
+    }
+} */

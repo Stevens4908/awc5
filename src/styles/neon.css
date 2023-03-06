@@ -1,0 +1,29 @@
+.glow {
+  font-family: LinkStart;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    -webkit-box-reflect: below 0.5px linear-gradient(transparent,#0004);
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 2px;
+  /* shorthand */
+    -webkit-text-stroke: 2px black;
+  /* color del texto */
+    -webkit-text-fill-color: aqua;
+}
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #00ff40, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  body {
+    background-color: rgb(255, 255, 255);
+    font-family: cursive;
+  }
+  

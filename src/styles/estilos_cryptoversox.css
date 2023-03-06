@@ -1,0 +1,29 @@
+.fotos_cry{
+
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transform: translate(20vw, -70vh);
+
+}
+
+.titulo_cry{
+
+   
+    
+    color: rgb(255, 255, 255, 0);
+    font-size: 8vw;
+    -webkit-text-stroke: 4px #00ffff;
+    font-family: LinkStart;
+
+}
+
+.contain-cry{
+
+  width: 100%;
+  height: auto;
+  position: absolute;
+  transform: translate(0, -90vh);
+
+}
+

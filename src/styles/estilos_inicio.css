@@ -1,0 +1,94 @@
+.lay_inicio {
+    margin-left: 0% !important;
+    margin-right: 0%;
+    position: fixed;
+    z-index: 0;
+    width: 1000%;
+    
+    left: 0;
+    top: 0%;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    height: 100vh;
+  }
+
+  .contain_inicio_1{
+    z-index: 2;
+    position: absolute;
+    transform: translate(0, -75vh);
+   
+    visibility:initial;
+   
+  }
+
+  .con{
+    pointer-events: all;
+  }
+
+  .sin{
+    pointer-events:none;
+    user-select: none;
+  }
+  .normal_1 {
+    font-family: LinkStart;
+       margin: 0;
+       font-size: 14vw  !important;
+       color: rgb(255, 255, 255, 0) !important;
+       -webkit-text-stroke: 2px whitesmoke;
+       text-decoration: none;
+       /* text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -3px black;  */
+
+      
+   }
+   
+   .resaltado_1 {
+    font-family: LinkStart;
+     color: #fff;
+     transition: .5s;
+     font-size: 4.5vw !important ;
+     text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+   }
+
+   .resaltado_1:active {
+    font-family: LinkStart;
+     color: #fff;
+     transition: .5s;
+     font-size: 4.5vw !important ;
+     text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+   }
+
+   .resaltado_1:hover{
+    cursor: pointer;
+   }
+
+   @media (min-width:720px){
+    
+
+    .normal_1 {
+      font-family: LinkStart;
+         margin: 0;
+         font-size: 4vw  !important;
+         color: rgb(255, 255, 255, 0) !important;
+         -webkit-text-stroke: 2px whitesmoke;
+         text-decoration: none;
+         /* text-shadow: -2px 0 black, 0 3px black, 3px 0 black, 0 -3px black;  */
+  
+        
+     }
+    
+     .lay_inicio {
+      margin-left: 0% !important;
+      margin-right: 0%;
+      position: fixed;
+      z-index: 0;
+      width: 100%;
+      left: 0;
+      top: 0%;
+      -webkit-transform: translate3d(0,0,0);
+      -ms-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+      height: 100vh;
+    }
+
+    }

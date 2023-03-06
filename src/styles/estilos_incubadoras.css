@@ -1,0 +1,45 @@
+.fotos_inc{
+
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transform: translate(20vw, -70vh);
+
+}
+
+.titulo_inc{
+
+  color: rgb(255, 255, 255, 0);
+  font-size: 8vw;
+  -webkit-text-stroke: 4px #00ffff;
+  font-family: LinkStart;
+
+
+}
+
+.color_incubadoras{
+color: #00ffff;
+}
+
+.contain_inc{
+  position: absolute;
+  transform: translate(0, -90vh);
+}
+
+.color_desc_1{
+
+  color: white;
+  font-family: LinkStart;
+  
+  }
+
+  @media (min-width:720px) {
+
+    .color_desc_1{
+
+      color: white;
+      font-family: LinkStart;
+      font-size: 2vw;
+      }
+
+  }
