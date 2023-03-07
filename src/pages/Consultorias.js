@@ -1,11 +1,11 @@
 import React from "react";
 import { Player, ControlBar } from 'video-react';
 import '../styles/video-react.css';
-import video from '../assets/videos/vid/Analisis De Mercado.m4v'
-import video2 from '../assets/videos/vid/Proyecion Financiera.m4v'
-import video3 from '../assets/videos/vid/Asesoria Tecnica.m4v'
-import video4 from '../assets/videos/vid/Estrategia De Marketing.m4v'
-import video5 from '../assets/videos/vid/Asesoria En Cripto Activos.m4v'
+import video from '../assets/videos/vid/Analisis De Mercado1.mp4'
+import video2 from '../assets/videos/vid/Proyecion Financiera1.mp4'
+import video3 from '../assets/videos/vid/Asesoria Tecnica1.mp4'
+import video4 from '../assets/videos/vid/Estrategia De Marketing1.mp4'
+import video5 from '../assets/videos/vid/Asesoria En Cripto Activos1.mp4'
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from "@ap.cx/react-fullpage";
 import '../styles/estilos_servicios.css'
 import  Movimiento from '../assets/js/myscript.js';

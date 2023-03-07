@@ -1049,7 +1049,7 @@ body.video-react-full-window .video-react-fullscreen {
   transform: translateY(-30px);
 }
 
-@media (min-width:7120px){
+@media (min-width:1900px){
 .video-react .video-react-video {
   position: absolute !important; 
   top: 0;

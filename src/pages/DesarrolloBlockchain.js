@@ -1,13 +1,13 @@
 import React from "react";
 import { Player, ControlBar } from 'video-react';
 import '../styles/video-react.css';
-import video from '../assets/videos/vid/Token.m4v'
-import video2 from '../assets/videos/vid/Nft.m4v'
-import video3 from '../assets/videos/vid/Dapps.m4v'
-import video4 from '../assets/videos/vid/Metaverso.m4v'
-import video5 from '../assets/videos/vid/Sistemas Descentralizados.m4v'
-import video6 from '../assets/videos/vid/Wallets.m4v'
-import video7 from '../assets/videos/vid/Smart Contracts.m4v'
+import video from '../assets/videos/vid/Token1.mp4'
+import video2 from '../assets/videos/vid/Nft1.mp4'
+import video3 from '../assets/videos/vid/Dapps1.mp4'
+import video4 from '../assets/videos/vid/Metaverso1.mp4'
+import video5 from '../assets/videos/vid/Sistemas Descentralizados1.mp4'
+import video6 from '../assets/videos/vid/Wallets1.mp4'
+import video7 from '../assets/videos/vid/Smart Contracts1.mp4'
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from "@ap.cx/react-fullpage";
 import '../styles/estilos_servicios.css'
 import Water from "../components/Water";
