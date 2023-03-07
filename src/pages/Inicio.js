@@ -23,12 +23,12 @@ import Img6 from '../assets/img/redeclipse_lf.png'*/
 
 //universo morado y azul
 
-import Img1 from '../assets/img/Spacebox2/Spacebox_front.png'
-import Img2 from '../assets/img/Spacebox2/Spacebox_back.png'
-import Img3 from '../assets/img/Spacebox2/Spacebox_top.png'
-import Img4 from '../assets/img/Spacebox2/Spacebox_bottom.png'
-import Img5 from '../assets/img/Spacebox2/Spacebox_right.png'
-import Img6 from '../assets/img/Spacebox2/Spacebox_left.png'
+import Img1 from '../assets/img/Spacebox2/Spacebox_front1.jpeg'
+import Img2 from '../assets/img/Spacebox2/Spacebox_back1.jpeg'
+import Img3 from '../assets/img/Spacebox2/Spacebox_top1.jpeg'
+import Img4 from '../assets/img/Spacebox2/Spacebox_bottom1.jpeg'
+import Img5 from '../assets/img/Spacebox2/Spacebox_right1.jpeg'
+import Img6 from '../assets/img/Spacebox2/Spacebox_left1.jpeg'
 
 // universo azul con polvo
 

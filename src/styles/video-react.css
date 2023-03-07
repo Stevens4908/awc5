@@ -25,6 +25,7 @@
 .video-react .video-react-volume-menu-button, .video-react .video-react-play-control, .video-react .video-react-play-progress, .video-react .video-react-big-play-button {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "video-react" !important;
+  display: none !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
