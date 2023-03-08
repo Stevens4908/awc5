@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import foto from '../../assets/img/Grupo1.JPG'
+import foto from '../../assets/img/grupo1.jpeg'
 import '../../styles/estilos_nosotros.css'
 
 function FotoNosotros () {

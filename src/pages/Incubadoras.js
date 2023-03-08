@@ -1,8 +1,8 @@
 import React from "react";
 import { Player, ControlBar } from 'video-react';
 import '../styles/video-react.css';
-import video from '../assets/videos/vid/Incubadoras.webm'
-import video2 from '../assets/videos/vid/Criptoverzox.webm'
+import video from '../assets/videos/vid/Incubadoras1.mp4'
+import video2 from '../assets/videos/vid/Criptoverzox1.mp4'
 import video3 from '../assets/videos/vid/Academy1.mp4'
 import '../styles/estilos_incuba2.css'
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from "@ap.cx/react-fullpage";

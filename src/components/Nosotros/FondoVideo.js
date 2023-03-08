@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Player, ControlBar, BigPlayButton } from 'video-react';
 //import 'video-react/dist/video-react.css'; 
-import video from '../../assets/videos/vid/Sobre Nosotros.webm'
+import video from '../../assets/videos/vid/Sobre Nosotros1.mp4'
 
 import Fullpage ,{FullPageSections,FullpageSection,FullpageNavigation}from "@ap.cx/react-fullpage";
 

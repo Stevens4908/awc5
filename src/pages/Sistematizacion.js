@@ -1,11 +1,11 @@
 import React from "react";
 import { Player, ControlBar } from 'video-react';
 import '../styles/video-react.css';
-import video from '../assets/videos/vid/Erp.m4v'
-import video2 from '../assets/videos/vid/Crm.m4v'
-import video3 from '../assets/videos/vid/Sitios Web.m4v'
-import video4 from '../assets/videos/vid/Ecomerce.m4v'
-import video5 from '../assets/videos/vid/Solucion A La Medida.m4v'
+import video from '../assets/videos/vid/Erp1.mp4'
+import video2 from '../assets/videos/vid/Crm1.mp4'
+import video3 from '../assets/videos/vid/Sitios Web1.mp4'
+import video4 from '../assets/videos/vid/Ecomerce1.mp4'
+import video5 from '../assets/videos/vid/Solucion A La Medida1.mp4'
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from "@ap.cx/react-fullpage";
 import '../styles/estilos_servicios.css'
 import  Movimiento from '../assets/js/myscript.js';
