@@ -1,3 +1,4 @@
+/*
 import React from "react";
 
 import { useLoader } from "@react-three/fiber";
@@ -25,3 +26,4 @@ const Model = () => {
 export default Model;
 
 
+*/

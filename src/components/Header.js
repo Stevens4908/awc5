@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/mystyle.css'
-import Logo from '../assets/img/log.png'
+import Logo from '../assets/img/log3.png'
 class Header extends React.Component {
     constructor(props) {
         super(props);

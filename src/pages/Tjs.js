@@ -4,8 +4,8 @@ import M1 from '../assets/img/cuarto/puertax.jpg'
 import M2 from '../assets/img/cuarto/pared2.jpg'
 import M3 from '../assets/img/cuarto/galaxia.jpg'
 import M4 from '../assets/img/cuarto/marco.jpg'
-import Mc from '../assets/img/cuarto/cuadro.jpg'
-import Me from '../assets/img/exit_dark.jpg'
+/*import Mc from '../assets/img/cuarto/cuadro.jpg'*/
+/*import Me from '../assets/img/exit_dark.jpg'*/
 import { TextureLoader } from 'three/src/loaders/TextureLoader'
 import cursors from '../assets/img/nave.png'
 /* import cursors1 from '../assets/img/telescopio.png' */
@@ -57,7 +57,7 @@ function Box(props) {
     )
   }
  
-
+/*
 function Cuadro(){
   const [clicked,setClicked]=useState(false);
   const [abrir,setabrir]=useState(false);
@@ -84,7 +84,9 @@ function Cuadro(){
  
     );
   }
+*/
 
+/*
   function Entrada(){
  
  
@@ -108,7 +110,7 @@ function Cuadro(){
    
       );
     }
-
+*/
 
   function Puerta(){
   const [abrir,setabrir]=useState(false);

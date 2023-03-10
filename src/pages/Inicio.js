@@ -210,6 +210,8 @@ class Inicio extends React.Component {
 
         return ( 
 
+          <React.Fragment>
+
 <Suspense fallback={<Loading/>}>
            
             <Canvas style={{height:'100vh'}}
@@ -233,8 +235,8 @@ class Inicio extends React.Component {
 
 
             </Canvas>
-
             <InicioItems/>
+            
   
             
           
@@ -243,6 +245,10 @@ class Inicio extends React.Component {
           
           
 </Suspense>
+
+          </React.Fragment>
+
+
          );
     }
 
