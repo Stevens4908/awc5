@@ -1,21 +1,21 @@
-import React, { useRef, useState, Suspense,MathUtils } from 'react'
+import React, { useRef, useState, Suspense } from 'react'
 import { Canvas,useLoader ,useFrame ,useThree } from '@react-three/fiber'
 import M1 from '../assets/img/cuarto/puertax.jpg'
 import M2 from '../assets/img/cuarto/pared2.jpg'
 import M3 from '../assets/img/cuarto/galaxia.jpg'
 import M4 from '../assets/img/cuarto/marco.jpg'
-import Mc from '../assets/img/cuarto/cuadro.jpg'
-import Me from '../assets/img/exit_dark.jpg'
+/*import Mc from '../assets/img/cuarto/cuadro.jpg'*/
+/*import Me from '../assets/img/exit_dark.jpg'*/
 import { TextureLoader } from 'three/src/loaders/TextureLoader'
 import cursors from '../assets/img/nave.png'
 /* import cursors1 from '../assets/img/telescopio.png' */
-import Model from '../components/Model'
+//import Model from '../components/Model'
 import {CameraShake} from '@react-three/drei'
 import * as THREE from 'three'
 // import { LoadingSpinner } from 'video-react'
-import { LoadingManager } from 'three'
+/*import { LoadingManager } from 'three'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import { Silla1_new } from '../components/Modelos3d/Silla1_new'
+import { Silla1_new } from '../components/Modelos3d/Silla1_new' */
 import { Cuadro_negro } from '../components/Modelos3d/Cuadro_negro'
 import { Silla_x } from '../components/Modelos3d/Silla_x'
 import Loading from '../components/Loading'
@@ -33,7 +33,7 @@ class Tjs extends React.Component {
 
     
      
-
+/*
 function Box(props) {
     // This reference will give us direct access to the mesh
     const mesh = useRef()
@@ -55,9 +55,9 @@ function Box(props) {
         <meshStandardMaterial color={hovered ? 'hotpink' : 'orange'} />
       </mesh>
     )
-  }
+  } */
  
-
+/*
 function Cuadro(){
   const [clicked,setClicked]=useState(false);
   const [abrir,setabrir]=useState(false);
@@ -84,7 +84,9 @@ function Cuadro(){
  
     );
   }
+*/
 
+/*
   function Entrada(){
  
  
@@ -108,7 +110,7 @@ function Cuadro(){
    
       );
     }
-
+*/
 
   function Puerta(){
   const [abrir,setabrir]=useState(false);
@@ -191,7 +193,7 @@ function Cuadro(){
     );
   }
   function Galaxia(){
-    const [clicks,setClick]=useState(false);
+    //const [clicks,setClick]=useState(false);
     const [clicked,setClicked]=useState(false);
     const mesh = useRef()
     const colorMap = useLoader(TextureLoader, M3)
@@ -309,7 +311,7 @@ function Cuadro(){
 
   
  
-  function Prueba () {
+  /*function Prueba () {
    
    
     
@@ -319,7 +321,7 @@ function Cuadro(){
      
        bola.position.set(0,0,0)
   }
- 
+ */
 
 // 05 01 04
 function Rig() {

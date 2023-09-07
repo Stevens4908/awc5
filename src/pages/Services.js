@@ -2,7 +2,7 @@
 import React from "react";
 import { Player, ControlBar } from 'video-react';
 import '../styles/video-react.css';
-import video from '../assets/videos/vid/servicios.webm'
+import video from '../assets/videos/vid/services.mp4'
 
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from "@ap.cx/react-fullpage";
 import '../styles/estilos_servicios.css'

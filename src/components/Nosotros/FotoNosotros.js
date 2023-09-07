@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import foto from '../../assets/img/Grupo1.JPG'
+import foto from '../../assets/img/grupo1.webp'
 import '../../styles/estilos_nosotros.css'
 
 function FotoNosotros () {
@@ -8,7 +8,7 @@ function FotoNosotros () {
 
         <React.Fragment>
 
-        <div className="container-fluid    d-flex flex-column contain_nosotros   ">
+        <div className="container-fluid    d-flex flex-column centrar-nosotros   ">
             <div className="row justify-content-center py-0 my-0">
                 <div className="col-md-12  my-0 py-0 by-0">
                         <p className="titulo_nosotros text-center by-0 py-0 my-0">SOBRE NOSOTROS</p>
@@ -19,7 +19,7 @@ function FotoNosotros () {
                 <div className="col-md-9 my-0 py-0 ">
                             <div className="row justify-content-center">
                                 <div className=" col-lg-7 my-0 py-0  ">
-                                    <img className="foto_nosotros img-fluid  mx-auto d-block py-0 my-0 text-center" style={{opacity:"1" }} src={foto} ></img>
+                                    <img className="foto_nosotros img-fluid  mx-auto d-block py-0 my-0 text-center" alt="" style={{opacity:"1" }} src={foto} ></img>
                                 </div>
                             </div>
                 </div>

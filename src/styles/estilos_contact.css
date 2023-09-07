@@ -9,6 +9,28 @@
 
 }
 
+.centrar-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   text-align: center; 
+    color: white;
+    z-index: 3;
+  }
+
+.cont{
+    height: 100vh;
+    z-index: 2;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .new_con{
         color: rgb(255, 255, 255, 0);
       font-size: 12vw;

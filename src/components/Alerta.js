@@ -2,8 +2,8 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/loading.css'
 import  { useState } from 'react';
-import Alert from 'react-bootstrap/Alert';
-import Button from 'react-bootstrap/Button';
+//import Alert from 'react-bootstrap/Alert';
+//import Button from 'react-bootstrap/Button';
 
 
 

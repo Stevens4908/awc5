@@ -23,13 +23,13 @@ class Footer extends React.Component {
                         window.open("https://wa.me/message/W2NG2HSGPFG2L1" )
                     }
                     
-                const style = { color: "#00ffff", fontSize: "1.3em" , cursor:"pointer" }
+                const style = { color: "#fff", fontSize: "1.3em" , cursor:"pointer" }
                 
                 return (
                         <div>
                                 <div className="mensaje">
                                         <ul className="mensaje_footer">
-                                                <li><FaWhatsapp style={{ color: "#00ffff", fontSize: "3em" , cursor:"pointer"}} onClick={ir_wp}/></li>
+                                                <li><FaWhatsapp style={{ color: "#fff", fontSize: "3em" , cursor:"pointer" }} onClick={ir_wp}/></li>
                                         </ul>
 
                                 </div>

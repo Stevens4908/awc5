@@ -39,15 +39,17 @@
 .logo{
   width: 4rem; 
   height: 2.5rem; 
+ 
+margin-left: 10px;
+margin-top: 10px;
   position: fixed;
-  bottom: 93%;
-  right: 80%;
+  top: 0;
+  left: 0;
  
 }
 
 .left-h{
-    padding: 1rem;
-    padding-left: 1.5rem ;
+ position: relative;
 }
 
 .footer {

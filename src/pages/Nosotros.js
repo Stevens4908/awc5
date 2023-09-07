@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import FondoVideo from "../components/Nosotros/FondoVideo";
 import FotoNosotros from "../components/Nosotros/FotoNosotros";
 import ParticulasNosotros from "../components/Nosotros/ParticulasNosotros";
@@ -12,7 +12,7 @@ class Nosotros extends React.Component {
 
           <React.Fragment>
 
-             
+      
                 <FondoVideo/>
                 <FotoNosotros/>
                    <ParticulasNosotros/>

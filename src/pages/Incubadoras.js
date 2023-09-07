@@ -1,16 +1,16 @@
 import React from "react";
 import { Player, ControlBar } from 'video-react';
 import '../styles/video-react.css';
-import video from '../assets/videos/vid/Incubadoras.webm'
-import video2 from '../assets/videos/vid/Criptoverzox.webm'
-import video3 from '../assets/videos/vid/Academy.webm'
+import video from '../assets/videos/vid/Incubadoras1.mp4'
+import video2 from '../assets/videos/vid/Criptoverzox1.mp4'
+import video3 from '../assets/videos/vid/Academy1.mp4'
 import '../styles/estilos_incuba2.css'
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from "@ap.cx/react-fullpage";
 import '../styles/estilos_servicios.css'
 import '../styles/estilos_incubadoras.css'
-import Water from "../components/Water";
+//import Water from "../components/Water";
 import  Movimiento from '../assets/js/myscript.js';
-import fondo_oscuro from '../assets/img/black_x.jpg'
+//import fondo_oscuro from '../assets/img/black_x.jpg'
 
 
 

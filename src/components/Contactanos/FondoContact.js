@@ -1,14 +1,24 @@
 import React from "react";
-import { Player, ControlBar, BigPlayButton } from 'video-react';
+import { Player, ControlBar} from 'video-react';
 //import 'video-react/dist/video-react.css'; 
-import video from '../../assets/videos/vid/Contactanos.webm'
+import video from '../../assets/videos/vid/Contactanos1.mp4'
 
-import Fullpage ,{FullPageSections,FullpageSection,FullpageNavigation}from "@ap.cx/react-fullpage";
+import Fullpage ,{FullPageSections,FullpageSection}from "@ap.cx/react-fullpage";
 
 function FondoContact() 
 {
     return ( 
-        
+
+
+
+
+
+<React.Fragment>
+
+
+
+
+   
         <Fullpage>
                
                 <FullPageSections>
@@ -36,6 +46,28 @@ function FondoContact()
                    
                 </FullPageSections>
         </Fullpage>
+
+
+</React.Fragment>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     );

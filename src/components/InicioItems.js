@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import '../styles/estilos_inicio.css'
-import fondo_oscuro from '../assets/img/black_x.jpg'
+//import fondo_oscuro from '../assets/img/black_x.jpg'
 
 
 function InicioItems() {
@@ -40,6 +40,8 @@ function InicioItems() {
                     </div>
                 </div>
     */}
+
+
 <div className=" container-fluid  contain_inicio_1 sin ">
 
     
@@ -47,9 +49,9 @@ function InicioItems() {
     <div className="row ">
 
 
-            <div className="col-md-11   " >
-                <div className="row justify-content-center">
-                    <div className="col-12 col-lg-10 offset-md-1 ">
+        <div className="col-md-11   " >
+            <div className="row justify-content-center">
+                <div className="col-12 col-lg-10 offset-md-1 ">
 
                                 <div className="row sin "  > 
                                         <div className=" col-12 col-md-12  sin"  >
@@ -80,52 +82,18 @@ function InicioItems() {
                                         </div>
                                 </div>
                                 
-                    </div>
-                    
                 </div>
-            </div>        
+                    
+            </div>
+        </div>        
     
-            
-
-        
-      { /*     <div className="col-md-1 selectores">
-                    <div className=" row ">
-                        <ol className=" selector test ">
-                                        <li className="test">
-                                            <label id="puntouno"  className="punto">•</label>
-                                        </li>
-                                        <li>
-                                            <label id="puntodos" className="punto">•</label>
-                                        </li>
-                                        <li>
-                                            <label id="puntotres" className="punto">•</label>
-                                        </li>
-                                        <li>
-                                            <label id="puntocuatro"  className="punto">•</label>
-                                        </li>
-                                        <li>
-                                            <label id="puntocinco" className="punto">•</label>
-                                        </li>
-                                        <li>
-                                            <label id="puntoseis" className="punto">•</label>
-                                        </li>
-                                        <li>
-                                            <label id="puntosiete"  className="punto">•</label>
-                                        </li>
-                                        <li>
-                                            <label id="puntoocho" className="punto">•</label>
-                                        </li>
-                                        <li>
-                                            <label id="puntonueve" className="punto">•</label>
-                                        </li>
-                        </ol>
-                                
-                    </div>  
-                </div>   */}
             
     </div>  
 
 </div>
+
+
+       
 
 </React.Fragment>
 
